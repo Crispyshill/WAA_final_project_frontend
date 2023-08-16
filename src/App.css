@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+/* App.css */
+
+/* Add a bit of styling to the entire App container */
+.App {
+    text-align: center;
+    margin-top: 20px;
+}
+/* ReviewPage.css */
+
+/* ReviewPage.css */
+
+.review-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .review-container h3 {
+        margin-top: 0;
+    }
+
+    .review-container p {
+        margin-bottom: 0;
+    }
+
+.category-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .category-container h3 {
+        margin-top: 0;
+    }
+
+    .category-container p {
+        margin-bottom: 0;
+    }
+
+.product-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .product-container h3 {
+        margin-top: 0;
+    }
+
+    .product-container p {
+        margin-bottom: 0;
+    }
+
+/* Style the navigation menu */
+.navigation-menu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+    .navigation-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation-menu li {
+        margin: 0 15px;
+    }
+
+    .navigation-menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+        .navigation-menu a:hover {
+            color: lightgray;
+        }
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
