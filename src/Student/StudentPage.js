@@ -119,7 +119,7 @@ export default function StudentPage() {
         <div>
             <h1>Alumni Directory</h1>
             <div>Search By:
-                GradYear: <input type="text" name="gradYear" value={searchParams.gradYear} onChange={onChanged} />
+                Graduation Year: <input type="text" name="gradYear" value={searchParams.gradYear} onChange={onChanged} />
                 Course: <input type="text" name="course" value={searchParams.course} onChange={onChanged} />
                 Location: <input type="text" name="locationParam" value={searchParams.locationParam} onChange={onChanged} />
                 Industry: <input type="text" name="industry" value={searchParams.industry} onChange={onChanged} />

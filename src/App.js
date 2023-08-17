@@ -21,6 +21,7 @@ import JobPageAdmin from './Job/JobPageAdmin';
 import EventPageAdmin from './Event/EventPageAdmin';
 import NewsPageAdmin from './News/NewsPageAdmin';
 import SurveyPageAdmin from './Survey/SurveyPageAdmin';
+import Home from './Home';
 
 
 
@@ -55,8 +56,11 @@ function App() {
                     </li>
                 
                 </ul>
+
             </div>
+            
             <Routes>
+                <Route path="/" element={<Home/> }/>
                 <Route path='/alumni' element={<StudentPage />}></Route>
                 <Route path='/alumni/:id' element={<StudentDetails />}></Route>
                 <Route path='/job' element={<JobPage />}></Route>

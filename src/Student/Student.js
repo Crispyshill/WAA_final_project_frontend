@@ -10,11 +10,11 @@ export default function Student(props) {
     return (
         <div className='Student' onClick={onClick }>
             <span>Id: {props.student.id}</span>
-            <span>fname: {props.student.firstName}</span>
-            <span>lname: {props.student.lastName}</span>
-            <span>email: {props.student.email}</span>
-            <span>graduation year: {props.student.graduationYear}</span>
-            <span>industry: {props.student.industry} </span>
+            <span>, first name: {props.student.firstName}</span>
+            <span>, last name: {props.student.lastName}</span>
+            <span>, email: {props.student.email}</span>
+            <span>, graduation year: {props.student.graduationYear}</span>
+            <span>, industry: {props.student.industry} </span>
         </div>
     );
 }

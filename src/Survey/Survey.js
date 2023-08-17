@@ -11,8 +11,8 @@ export default function Survey(props) {
     return (
         <div className='Survey' onClick={onClick}>
             <span>Id: {props.survey.id}</span>
-            <span>name: {props.survey.name}</span>
-            <span>description: {props.survey.description}</span>
+            <span>, name: {props.survey.name}</span>
+            <span>, description: {props.survey.description}</span>
 
         </div>
     );

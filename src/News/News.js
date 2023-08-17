@@ -10,8 +10,8 @@ export default function News(props) {
     return (
         <div className='News' onClick={onClick}>
             <span>Id: {props.news.id}</span>
-            <span>title: {props.news.title}</span>
-            <span>body: {props.news.body}</span>
+            <span>, title: {props.news.title}</span>
+            <span>, body: {props.news.body}</span>
 
         </div>
     );

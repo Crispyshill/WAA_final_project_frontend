@@ -10,10 +10,10 @@ export default function Event(props) {
     return (
         <div className='Event' onClick={onClick}>
             <span>Id: {props.event.id}</span>
-            <span>name: {props.event.name}</span>
-            <span>date: {props.event.date}</span>
-            <span>description: {props.event.category}</span>
-            <span>category: {props.event.category}</span>
+            <span>, name: {props.event.name}</span>
+            <span>, date: {props.event.date}</span>
+            <span>, description: {props.event.category}</span>
+            <span>, category: {props.event.category}</span>
         </div>
     );
 }

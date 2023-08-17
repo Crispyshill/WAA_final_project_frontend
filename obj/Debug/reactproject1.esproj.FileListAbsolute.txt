@@ -2,3 +2,5 @@ C:\Users\sethh\source\repos\reactproject1\reactproject1\obj\Debug\reactproject1.
 C:\Users\sethh\source\repos\reactproject1\reactproject1\obj\Debug\reactproject1.esproj.CoreCompileInputs.cache
 C:\Users\sethh\Documents\School\compro\_WAA\project_2\frontend\frontend\reactproject1\obj\Debug\reactproject1.esproj.SuggestedBindingRedirects.cache
 C:\Users\sethh\Documents\School\compro\_WAA\project_2\frontend\frontend\reactproject1\obj\Debug\reactproject1.esproj.CoreCompileInputs.cache
+C:\Users\sethh\Documents\School\compro\_WAA\project_2\frontend\frontend\WAA_final_project\obj\Debug\reactproject1.esproj.SuggestedBindingRedirects.cache
+C:\Users\sethh\Documents\School\compro\_WAA\project_2\frontend\frontend\WAA_final_project\obj\Debug\reactproject1.esproj.CoreCompileInputs.cache
